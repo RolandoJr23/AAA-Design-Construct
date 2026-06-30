@@ -237,7 +237,7 @@ export default function Homepage() {
                     </div>
                   </div>
                   <div className="mt-4 text-amber-400 font-semibold text-lg uppercase">{s.title}</div>
-                  <div className="mt-2 text-gray-500 text-sm leading-relaxed">{s.desc}</div>
+                  <div className="mt-2 text-gray-500 text-sm leading-relaxed line-clamp-2">{s.desc}</div>
                   <div className="mt-5 h-px w-full bg-gradient-to-r from-gold/70 via-white/10 to-transparent" />
                 </div>
               ))}
