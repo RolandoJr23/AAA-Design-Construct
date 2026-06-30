@@ -180,18 +180,48 @@ export default function Homepage() {
               {[
                 {
                   icon: <Hammer className="h-5 w-5 text-amber-400" />,
-                  title: "Renovation Works",
-                  desc: "Upgrade homes and spaces with elegant finishing and dependable workmanship.",
+                  title: "Customized Cabinet",
+                  desc: "Beautifully crafted, space-efficient cabinets tailored to your style, needs, and home interior, combining functionality with quality workmanship.",
                 },
                 {
                   icon: <Building2 className="h-5 w-5 text-amber-400" />,
-                  title: "Residential",
-                  desc: "Warm, functional interiors designed for real living.",
+                  title: "Ceiling and Partition",
+                  desc: "Expertly designed ceiling and partition solutions that enhance aesthetics, maximize space, and provide a durable, functional finish for any interior.",
                 },
                 {
                   icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
-                  title: "Commercial",
-                  desc: "Professional builds with strong structure and an impressive presentation.",
+                  title: "Paint",
+                  desc: "High-quality painting services that bring color, protection, and a refined finish to residential and commercial spaces.",
+                },
+                {
+                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  title: "Re-Paint",
+                  desc: "Professional repainting services that refresh, restore, and revitalize interiors and exteriors with a clean, long-lasting finish.",
+                },
+                {
+                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  title: "Renovation",
+                  desc: "Comprehensive renovation services that transform existing spaces into modern, functional, and visually appealing environments tailored to your needs.",
+                },
+                {
+                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  title: "Finishing",
+                  desc: "Quality finishing works that add the perfect final touch, ensuring every detail reflects craftsmanship, durability, and a polished appearance.",
+                },
+                {
+                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  title: "Gate",
+                  desc: "Durable and stylish gate solutions designed to enhance security, functionality, and the overall appearance of your property.",
+                },
+                {
+                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  title: "Tiles",
+                  desc: "Professional tile installation services that combine durability, precision, and elegant designs to create beautiful and long-lasting spaces.",
+                },
+                {
+                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  title: "Laminated",
+                  desc: "Premium laminated finishes that provide a sleek, durable, and low-maintenance solution for modern interiors and furniture.",
                 },
               ].map((s) => (
                 <div
@@ -206,7 +236,7 @@ export default function Homepage() {
                       Explore
                     </div>
                   </div>
-                  <div className="mt-4 text-amber-400 font-semibold text-lg">{s.title}</div>
+                  <div className="mt-4 text-amber-400 font-semibold text-lg uppercase">{s.title}</div>
                   <div className="mt-2 text-gray-500 text-sm leading-relaxed">{s.desc}</div>
                   <div className="mt-5 h-px w-full bg-gradient-to-r from-gold/70 via-white/10 to-transparent" />
                 </div>
