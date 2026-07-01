@@ -42,7 +42,7 @@ function ExploreContent() {
         {/* Title overlay */}
         <div className="absolute bottom-0 left-0 right-0 px-6 sm:px-12 pb-10">
           <div className="mx-auto max-w-6xl">
-            <div className="inline-flex items-center gap-2 rounded-full border border-stone-700 bg-amber-400/10 px-3 py-1 text-stone-700 text-xs font-semibold mb-3 ">
+            <div className="inline-flex items-center gap-2 rounded-full border border-stone-700 bg-amber-400/10 px-3 py-1 text-stone-900 text-xs font-semibold mb-3 ">
               <Sparkles className="h-3 w-3" />
               AAA Design &amp; Construct
             </div>

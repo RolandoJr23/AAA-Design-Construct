@@ -1,14 +1,14 @@
 import { StaticImageData } from "next/image";
 
-import customizedcabinetThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import ceilingpartitionThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import paintThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import repaintThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import renovationThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import finishingThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import gateThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import tilesThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
-import laminatedThumbnail from "../assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
+import customizedcabinetThumbnail from "../assets/images/services/customizedcabinet/488911419_1254497633346325_3071550078124301012_n.jpg";
+import ceilingpartitionThumbnail from "../assets/images/services/ceilingpartition/123658287_419314099462704_5536764401269187625_n.jpg";
+import paintThumbnail from "../assets/images/services/paint/472866607_1561220331938736_7662417423455158074_n.jpg";
+import repaintThumbnail from "../assets/images/services/repaint/75354916_159115532149230_5861628996004872192_n.jpg";
+import renovationThumbnail from "../assets/images/services/renovation/473415542_1567145668012869_5637359439268864722_n.jpg";
+import finishingThumbnail from "../assets/images/services/finishing/472340346_1561027788624657_2505574736310010054_n.jpg";
+import gateThumbnail from "../assets/images/services/gate/473566252_1569999684394134_7437362996382003881_n.jpg";
+import tilesThumbnail from "../assets/images/services/tiles/470017338_1542336970493739_8965119735546498326_n.jpg";
+import laminatedThumbnail from "../assets/images/services/laminated/470219085_1542310547163048_4583269133393048363_n.jpg";
 
 import customizedcabinet1 from "../assets/images/services/customizedcabinet/488911419_1254497633346325_3071550078124301012_n.jpg";
 import customizedcabinet2 from "../assets/images/services/customizedcabinet/491899130_1263975715731850_8285816921360880310_n.jpg";

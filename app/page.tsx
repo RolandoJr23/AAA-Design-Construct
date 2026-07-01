@@ -17,6 +17,7 @@ import {
   Phone
 } from "lucide-react";
 import ServicesGrid from "./components/ServicesGrid";
+import ContactForm from "./components/ContactForm";
 
 import AboutImage from "./assets/images/686400886_122168907770937303_490107985428863713_n.jpg";
 import ContactImage from "./assets/images/540689138_122123372030937303_5420469847583778664_n.jpg";
@@ -244,64 +245,7 @@ export default function Homepage() {
 
             <div className="mt-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
               <ScrollReveal direction="right" delay={100} className="lg:col-span-7">
-                <div className="rounded-3xl border border-white/15 bg-white/50 backdrop-blur-xl p-7 shadow-[0_18px_60px_rgba(0,0,0,0.10)]">
-                  <form className="space-y-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <label className="block">
-                        <span className="text-stone-600 text-sm">Name</span>
-                        <input
-                          className="mt-2 w-full rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 placeholder:text-stone-600 outline-none focus:border-gold/60"
-                          placeholder="Your name"
-                          required
-                        />
-                      </label>
-                      <label className="block">
-                        <span className="text-stone-600 text-sm">Email</span>
-                        <input
-                          type="email"
-                          className="mt-2 w-full rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 placeholder:text-stone-600 outline-none focus:border-gold/60"
-                          placeholder="you@example.com"
-                          required
-                        />
-                      </label>
-                    </div>
-
-                    <label className="block">
-                      <span className="text-stone-600 text-sm">Project type</span>
-                      <select
-                        className="mt-2 w-full rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 outline-none focus:border-gold/60"
-                        defaultValue="renovation"
-                      >
-                        <option value="customizedcabinet">Customized Cabinet</option>
-                        <option value="ceilingpartition">Ceiling and Partition</option>
-                        <option value="paint">Paint</option>
-                        <option value="repaint">Re-Paint</option>
-                        <option value="renovation">Renovation</option>
-                        <option value="finishing">Finishing</option>
-                        <option value="gate">Gate</option>
-                        <option value="tiles">Tiles</option>
-                        <option value="laminated">Laminated</option>
-                      </select>
-                    </label>
-
-                    <label className="block">
-                      <span className="text-stone-600 text-sm">Message</span>
-                      <textarea
-                        className="mt-2 w-full min-h-50 rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 placeholder:text-stone-600 outline-none focus:border-gold/60"
-                        placeholder="Tell us about your goals, timeline, and style."
-                        required
-                      />
-                    </label>
-
-                    <button
-                      type="submit"
-                      className="inline-flex items-center justify-center gap-2 w-full sm:w-auto rounded-2xl bg-gold border border-stone-600 px-7 py-3 text-black font-semibold hover:brightness-110 transition hover:text-gray-300 hover:border-gray-300 cursor-pointer"
-                    >
-                      <Check className="h-4 w-4" />
-                      Submit
-                    </button>
-                  </form>
-                </div>
+                <ContactForm />
               </ScrollReveal>
 
               <ScrollReveal direction="left" delay={200} className="lg:col-span-5">
