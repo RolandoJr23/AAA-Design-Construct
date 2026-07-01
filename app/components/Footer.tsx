@@ -34,7 +34,8 @@ export default function Footer() {
                   alt="AAA Design & Construct"
                   width={200}
                   height={48}
-                  className="h-12 w-full"
+                  className="h-12"
+                  style={{ width: "auto" }}
                 />
               </div>
             </div>
