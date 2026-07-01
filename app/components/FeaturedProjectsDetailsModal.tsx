@@ -72,7 +72,7 @@ export default function FeaturedProjectsDetailsModal({ project, onClose }: Props
               src={toSrc(images[current] as string | StaticImageData)}
               alt={`${project.title} image ${current + 1}`}
               fill
-              sizes="100vw"
+              sizes="(max-width: 896px) 100vw, 896px"
               className="object-cover transition-opacity duration-300"
               priority
             />
