@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { MapPin, Phone, Mail, Globe } from "lucide-react";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 import AAADesignConstruct from "../assets/logo/aaadesignconstructicon.png";
 import AAADesignConstruct2 from "../assets/logo/aaadesignconstruct_nobgg.png";
@@ -41,12 +43,6 @@ export default function Footer() {
               </span>
             </div>
           </div>
-
-          {/* My location */}
-            {/* <div className='w-full flex flex-row justify-center items-center gap-1 hover:text-red-500'>
-              <MapPin className='w-3 h-3' />
-              <h3 className='text-xs'><a href="https://maps.app.goo.gl/9PzyRR8uTxhctFDb9" target="_blank">San Antonio Santo Tomas, Batangas</a></h3>
-            </div> */}
 
           <div>
             <div className="text-white font-semibold">Quick Links</div>
@@ -91,14 +87,18 @@ export default function Footer() {
                 aria-label="Instagram"
                 className="h-10 w-10 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition flex items-center justify-center"
               >
-                <span className="text-gold font-semibold text-sm">IG</span>
+                <span className="text-blue-400 font-semibold text-sm">
+                  <FacebookIcon className="object-cover"/>
+                </span>
               </a>
               <a
                 href="#"
                 aria-label="Facebook"
                 className="h-10 w-10 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition flex items-center justify-center"
               >
-                <span className="text-gold font-semibold text-sm">FB</span>
+                <span className="text-pink-400 font-semibold text-sm">
+                  <InstagramIcon className="object-cover"/>
+                </span>
               </a>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-3">
             <span className="h-1 w-1 rounded-full bg-gold" />
-            <span>Craft • Clarity • Confidence</span>
+            <span>Design • Build • Create • Better Spaces</span>
           </div>
         </div>
       </div>

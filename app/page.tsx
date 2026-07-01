@@ -179,47 +179,47 @@ export default function Homepage() {
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {[
                 {
-                  icon: <Hammer className="h-5 w-5 text-amber-400" />,
+                  icon: <Hammer className="h-5 w-5 text-stone-600" />,
                   title: "Customized Cabinet",
                   desc: "Beautifully crafted, space-efficient cabinets tailored to your style, needs, and home interior, combining functionality with quality workmanship.",
                 },
                 {
-                  icon: <Building2 className="h-5 w-5 text-amber-400" />,
+                  icon: <Building2 className="h-5 w-5 text-stone-600" />,
                   title: "Ceiling and Partition",
                   desc: "Expertly designed ceiling and partition solutions that enhance aesthetics, maximize space, and provide a durable, functional finish for any interior.",
                 },
                 {
-                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  icon: <LayoutGrid className="h-5 w-5 text-stone-600" />,
                   title: "Paint",
                   desc: "High-quality painting services that bring color, protection, and a refined finish to residential and commercial spaces.",
                 },
                 {
-                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  icon: <LayoutGrid className="h-5 w-5 text-stone-600" />,
                   title: "Re-Paint",
                   desc: "Professional repainting services that refresh, restore, and revitalize interiors and exteriors with a clean, long-lasting finish.",
                 },
                 {
-                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  icon: <LayoutGrid className="h-5 w-5 text-stone-600" />,
                   title: "Renovation",
                   desc: "Comprehensive renovation services that transform existing spaces into modern, functional, and visually appealing environments tailored to your needs.",
                 },
                 {
-                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  icon: <LayoutGrid className="h-5 w-5 text-stone-600" />,
                   title: "Finishing",
                   desc: "Quality finishing works that add the perfect final touch, ensuring every detail reflects craftsmanship, durability, and a polished appearance.",
                 },
                 {
-                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  icon: <LayoutGrid className="h-5 w-5 text-stone-600" />,
                   title: "Gate",
                   desc: "Durable and stylish gate solutions designed to enhance security, functionality, and the overall appearance of your property.",
                 },
                 {
-                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  icon: <LayoutGrid className="h-5 w-5 text-stone-600" />,
                   title: "Tiles",
                   desc: "Professional tile installation services that combine durability, precision, and elegant designs to create beautiful and long-lasting spaces.",
                 },
                 {
-                  icon: <LayoutGrid className="h-5 w-5 text-amber-400" />,
+                  icon: <LayoutGrid className="h-5 w-5 text-stone-600" />,
                   title: "Laminated",
                   desc: "Premium laminated finishes that provide a sleek, durable, and low-maintenance solution for modern interiors and furniture.",
                 },
@@ -229,14 +229,14 @@ export default function Homepage() {
                   className="group rounded-3xl bg-white/50 backdrop-blur-xl p-6 shadow-[0_18px_60px_rgba(0,0,0,0.10)]"
                 >
                   <div className="flex items-center justify-between">
-                    <div className="inline-flex items-center justify-center h-11 w-11 rounded-2xl border border-amber-500 bg-gold/10">
+                    <div className="inline-flex items-center justify-center h-11 w-11 rounded-2xl border border-stone-600 bg-gold/10">
                       {s.icon}
                     </div>
-                    <div className="text-amber-400 text-sm font-semibold opacity-80 transition group-hover:opacity-100 hover:text-gray-300">
+                    <div className="text-stone-600 text-sm font-semibold opacity-80 transition group-hover:opacity-100 hover:text-gray-300">
                       Explore
                     </div>
                   </div>
-                  <div className="mt-4 text-amber-400 font-semibold text-lg uppercase">{s.title}</div>
+                  <div className="mt-4 text-stone-600 font-semibold text-lg uppercase">{s.title}</div>
                   <div className="mt-2 text-gray-500 text-sm leading-relaxed line-clamp-2">{s.desc}</div>
                   <div className="mt-5 h-px w-full bg-gradient-to-r from-gold/70 via-white/10 to-transparent" />
                 </div>
@@ -341,24 +341,24 @@ export default function Homepage() {
             />
 
             <div className="mt-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
-              <div className="lg:col-span-7 rounded-3xl border border-white/15 bg-black/55 backdrop-blur-xl p-7">
+              <div className="lg:col-span-7 rounded-3xl border border-white/15 bg-white/50 backdrop-blur-xl p-7 shadow-[0_18px_60px_rgba(0,0,0,0.10)]">
                 <form className="space-y-4">
 
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <label className="block">
-                      <span className="text-white/80 text-sm">Name</span>
+                      <span className="text-stone-600 text-sm">Name</span>
                       <input
-                        className="mt-2 w-full rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder:text-white/40 outline-none focus:border-gold/60"
+                        className="mt-2 w-full rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 placeholder:text-stone-600 outline-none focus:border-gold/60"
                         placeholder="Your name"
                         required
                       />
                     </label>
                     <label className="block">
-                      <span className="text-white/80 text-sm">Email</span>
+                      <span className="text-stone-600 text-sm">Email</span>
                       <input
                         type="email"
-                        className="mt-2 w-full rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder:text-white/40 outline-none focus:border-gold/60"
+                        className="mt-2 w-full rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 placeholder:text-stone-600 outline-none focus:border-gold/60"
                         placeholder="you@example.com"
                         required
                       />
@@ -366,21 +366,27 @@ export default function Homepage() {
                   </div>
 
                   <label className="block">
-                    <span className="text-white/80 text-sm">Project type</span>
+                    <span className="text-stone-600 text-sm">Project type</span>
                     <select
-                      className="mt-2 w-full rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white outline-none focus:border-gold/60"
+                      className="mt-2 w-full rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 outline-none focus:border-gold/60"
                       defaultValue="renovation"
                     >
+                      <option value="customizedcabinet">Customized Cabinet</option>
+                      <option value="ceilingpartition">Ceiling and Partition</option>
+                      <option value="paint">Paint</option>
+                      <option value="repaint">Re-Paint</option>
                       <option value="renovation">Renovation</option>
-                      <option value="residential">Residential</option>
-                      <option value="commercial">Commercial</option>
+                      <option value="finishing">Finishing</option>
+                      <option value="gate">Gate</option>
+                      <option value="tiles">Tiles</option>
+                      <option value="laminated">Laminated</option>
                     </select>
                   </label>
 
                   <label className="block">
-                    <span className="text-white/80 text-sm">Message</span>
+                    <span className="text-stone-600 text-sm">Message</span>
                     <textarea
-                      className="mt-2 w-full min-h-32 rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder:text-white/40 outline-none focus:border-gold/60"
+                      className="mt-2 w-full min-h-50 rounded-2xl bg-white/5 border border-stone-600 px-4 py-3 text-stone-600 placeholder:text-stone-600 outline-none focus:border-gold/60"
                       placeholder="Tell us about your goals, timeline, and style."
                       required
                     />
@@ -388,15 +394,15 @@ export default function Homepage() {
 
                   <button
                     type="submit"
-                    className="inline-flex items-center justify-center gap-2 w-full sm:w-auto rounded-2xl bg-gold px-7 py-3 text-black font-semibold hover:brightness-110 transition"
+                    className="inline-flex items-center justify-center gap-2 w-full sm:w-auto rounded-2xl bg-gold border border-stone-600 px-7 py-3 text-black font-semibold hover:brightness-110 transition hover:text-gray-300 hover:border-gray-300 cursor-pointer"
                   >
                     <Check className="h-4 w-4" />
-                    Request a callback
+                    Submit
                   </button>
 
-                  <div className="text-white/60 text-xs leading-relaxed">
+                  {/* <div className="text-stone-600 text-xs leading-relaxed">
                     Demo form only (no backend connected). Replace with your form endpoint anytime.
-                  </div>
+                  </div> */}
                 </form>
               </div>
 
