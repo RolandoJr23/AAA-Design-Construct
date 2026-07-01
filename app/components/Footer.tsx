@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { MapPin, Phone, Mail, Globe } from "lucide-react";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import dynamic from "next/dynamic";
+
+const FacebookIcon = dynamic(() => import("@mui/icons-material/Facebook"), { ssr: false });
+const InstagramIcon = dynamic(() => import("@mui/icons-material/Instagram"), { ssr: false });
 
 import AAADesignConstruct from "../assets/logo/aaadesignconstructicon.png";
 import AAADesignConstruct2 from "../assets/logo/aaadesignconstruct_nobgg.png";
@@ -17,16 +20,20 @@ export default function Footer() {
               <div className="h-16 w-16 flex items-center justify-center">
                 <span className="inline-flex items-center justify-center h-16 w-16">
                   <Image
-                    src={AAADesignConstruct}
+                    src={AAADesignConstruct.src}
                     alt="AAA Design & Construct"
+                    width={48}
+                    height={40}
                     className="h-10 w-12"
                   />
                 </span>
               </div>
               <div>
                 <Image
-                  src={AAADesignConstruct2}
+                  src={AAADesignConstruct2.src}
                   alt="AAA Design & Construct"
+                  width={200}
+                  height={48}
                   className="h-12 w-full"
                 />
               </div>
