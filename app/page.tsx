@@ -215,7 +215,7 @@ export default function Homepage() {
               <ScrollReveal direction="left" delay={200}>
                 <div className="rounded-3xl overflow-hidden border border-white/15 bg-black/30">
                   <div className="relative h-80 sm:h-96">
-                    <Image src={AboutImage} alt="Design and Build" fill className="object-cover" />
+                    <Image src={AboutImage} alt="Design and Build" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
                   </div>
                   <div className="p-6 bg-black/55">
                     <div className="flex items-center gap-3">

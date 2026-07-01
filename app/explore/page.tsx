@@ -23,6 +23,7 @@ function ExploreContent() {
           src={thumbSrc}
           alt={service.title}
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
@@ -85,6 +86,7 @@ function ExploreContent() {
                       src={src}
                       alt={`${service.title} project ${idx + 1}`}
                       fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover transition duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300" />
@@ -131,7 +133,7 @@ function ExploreContent() {
                     href={`/explore?id=${s.id}`}
                     className="group relative overflow-hidden rounded-2xl border border-white/10 bg-black/30 aspect-[4/3]"
                   >
-                    <Image src={src} alt={s.title} fill className="object-cover transition duration-500 group-hover:scale-105" />
+                    <Image src={src} alt={s.title} fill sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw" className="object-cover transition duration-500 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-3">
                       <div className="text-white text-xs font-semibold leading-tight">{s.title}</div>

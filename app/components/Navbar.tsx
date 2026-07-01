@@ -75,7 +75,8 @@ export default function Navbar() {
               <Image
                 src={AAADesignConstruct2}
                 alt="AAA Design & Construct"
-                className="h-12 w-full"
+                className="h-12"
+                style={{ width: "auto" }}
               />
             </div>
           </div>
